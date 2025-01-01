@@ -19,6 +19,7 @@ const App = () => {
     setXIsNext(!xIsNext);
   };
 
+  // testing new comment
   const jumpTo = (step) => {
     setStepNumber(step);
     setXIsNext(step % 2 === 0);
